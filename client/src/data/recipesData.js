@@ -1,7 +1,8 @@
-const recipesData = [
+const recipes = [
   {
     "title": "Beef rendang",
     "slug": "beef-rendang",
+    "addedBy": "Monica & Hans",
     "portions": 2,
     "categories": [
       "Asiatiskt",
@@ -409,7 +410,8 @@ const recipesData = [
         "sequence": 9,
         "text": "Strö över resterande torkad lök och servera med ris."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Bun",
@@ -608,7 +610,8 @@ const recipesData = [
         "sequence": 10,
         "text": "Servera med 'Dipping sauce for bun' och sriracha"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chicken curry with potato",
@@ -761,7 +764,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Ta av plattan och blanda I koriander"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chicken Madras",
@@ -938,7 +942,8 @@ const recipesData = [
         "sequence": 8,
         "text": "Strö över garam masala och koriander"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chicken Pakora",
@@ -1084,7 +1089,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Servera med Myntasås (raita)"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chicken Tikka Masala",
@@ -1269,7 +1275,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Blanda I 1 tsk garam masala, 0.5 tsk koriander och gurkmeja. I med kycklingen och grädden och blanda runt. Täck med lock och sjud I 10 min. Salta och garnera med färsk koriander och servera med 'Roti'"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chicken Vindaloo",
@@ -1458,7 +1465,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Lägg I kyckling och all blandning den legat I, potatis och vatten. Koka upp. Sänk värmen och låt puttra under lock I ca 25 minuter. Salta och servera med 'Roti'"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chiliolja",
@@ -1563,7 +1571,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Mortla sichanpepparkornen nogrant och blanda med alla ingredienser"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chilli momo",
@@ -1696,7 +1705,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Garnera med färsk koriander"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Devilled chicken",
@@ -1831,7 +1841,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Servera med flingsalt"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Dipping sauce for bun",
@@ -1912,7 +1923,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda alla ingredienser I en liten skål"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Filipino pork barbecue",
@@ -1997,7 +2009,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Grilla spetten och pensla med marinaden hela tiden och servera med resterande marinad och sallad eller bara lök och tomat"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fiskkakor",
@@ -2105,7 +2118,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Servera med Jordnöts- och limesås"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Garam masala",
@@ -2194,7 +2208,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda och rosta allt utom gurkmejan I ca 2 min. Mortla väl och sen I med gurkmejan"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Green curry chicken",
@@ -2307,7 +2322,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Servera med ris"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ingefärs- och sesamköttbullar",
@@ -2433,7 +2449,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Resterande sås kan serveras bredvid"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Korokke (Japanska kroketter)",
@@ -2554,7 +2571,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Fritera tills gyllenbruna och servera med Tonkatsu sås"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kyckling med cashewnötter",
@@ -2729,7 +2747,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Servera med koriander"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Laab",
@@ -2826,7 +2845,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Stäng av och blanda i lök och myntan"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Marinad till chicken with potato",
@@ -2834,7 +2854,8 @@ const recipesData = [
     "portions": 2,
     "categories": [],
     "ingredients": [],
-    "instructions": []
+    "instructions": [],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Murgh kadhai",
@@ -3007,7 +3028,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Dekorera med gröna chilis och roti"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Myntasås (raita)",
@@ -3080,7 +3102,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda alla ingredienserna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Nudlar med kryddig lammfärs",
@@ -3236,7 +3259,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Blanda chiliolja, socker, vinäger samt soja och häll i pannan. Låt det hela blandas runt. Tillsätt nudlarna och blanda väl. Toppa med koriander"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Nuoc Cham (Dipping sauce till papayasallad)",
@@ -3317,7 +3341,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Lagom till en papaysallad för två"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Pad Kra Pao",
@@ -3422,7 +3447,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Servera med ris och ev ett stekt ägg"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Red curry chicken",
@@ -3531,7 +3557,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Mot slutet lägg i sockerärter om det används och thaibasilika"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Roti",
@@ -3588,7 +3615,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Platta ut och stek I het torr panna tills dom bubblar sig. Vänd hela tiden"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Räkspett",
@@ -3677,7 +3705,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Grilla spetten 4 - 5 min på varje sida. Ringla över lite olja och krydda med chilisaltet"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Sataysås",
@@ -3766,7 +3795,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Låt det sjuda i ca 5 minuter. Mixa med en stavmixer till en slät sås"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Sesamnudlar med honungskyckling",
@@ -3849,7 +3879,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Koka nudlarna enligt anvisningar på förpackningen ( 5 min). Häll av vattnet i ett durkslag och lägg nudlarna i 2 djupa skålar. Häll på såsen på nudlarna och vänd runt. Toppa med den stekta kycklingen, gurka, salladslök, jordnötter, sesamfrön och ev chiliolja. Servera genast!"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Spicy asian kycklingspett",
@@ -3942,7 +3973,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Servera med överbliven marinad"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Strimlad biff",
@@ -4025,7 +4057,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Woka köttet tills det är nästan färdigt, i med cashewnötterna och sist i med löken"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Tom Yam",
@@ -4184,7 +4217,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Häll upp i skålar och garnera med vårlöken och koriandern."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Wokade grönsaker med strimlat kött",
@@ -4287,7 +4321,8 @@ const recipesData = [
         "sequence": 4,
         "text": "I med champinjoner, groddar och sockerärter"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Wontondumplings",
@@ -4429,7 +4464,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Koka upp en stor gryta vatten och pochera dumplingarna I ca 7 min. Låt dom rinna ac och servera med 'Chiliolja'"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Yakitori (kycklingspett)",
@@ -4474,7 +4510,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Servera med resterande yakitorisås och/eller bara salt"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Yakitorisås",
@@ -4523,7 +4560,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda allt och låt småkoka I 10 min. Låt kallna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Bröd med fårost",
@@ -4649,7 +4687,8 @@ const recipesData = [
         "sequence": 8,
         "text": "Servera med grovsalt, paprikapulver och kyndel."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Focaccia",
@@ -4741,7 +4780,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Grädda i mitten av ugnen i cirka 15 minuter."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fröknäcke",
@@ -4833,7 +4873,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Låt svalna på galler"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Vitlöksgrillade pitabröd",
@@ -4879,7 +4920,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda vitlök med salt och smält smör, pensla bröden och grilla dom tills dom är gyllenbruna och krispiga"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Zabaglione",
@@ -4943,7 +4985,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Ställ i kylen och ta ut 20 minuter innan servering. Servera med färska bär"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fiskgratäng",
@@ -5114,7 +5157,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Värm ugnen till 225 grader. Spritsa potatisen längs kanterna av en smord ugnsform. Skär fisken i portionsbitar. Skala räkorna. Lägg fisken i formen, salta, peppra och lägg på räkorna. Rör ner den vispade grädden i stuvningen och häll stuvningen över fisken och räkorna. Ställ in formen i ugnen och gratinera i ca 20 minuter. Garnera gratängen med dill och citronklyftor och servera direkt."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Grava lax",
@@ -5214,7 +5258,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Vänd och gnid in laxen 2 gånger om dan och häll av överflödig gravlaxblandning"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Matjesill med färskpotatis",
@@ -5285,7 +5330,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Koka potatisen med salt och dill och servera med matjesillen och övriga ingredienser"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Morbergska fisksoppan med saffran",
@@ -5472,7 +5518,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Ta av grytan från värmen och lägg i räkorna. Låt soppan dra ett par minuter innan du serverar den."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Gul fiskcurry",
@@ -5559,7 +5606,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Ta av pannan och blanda i thai basilika"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fläskfilé i krämig dragon- och senapssås",
@@ -5671,7 +5719,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Servera fläskfilé i sin sås med potatis och rotfrukter."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Rotfukter i ugn",
@@ -5756,7 +5805,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Baka i ugnen i 35 min"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Krämig dragon- och senapssås",
@@ -5831,7 +5881,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Vispa ur pannan du stekt köttet med grädde och kalvfond. Tillsätt dragon och dijonsenap och låt koka ihop under några minuter. Smaka av med citronsaft, honung, salt och peppar."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Mtsvadi cha shu shuli (Georgisk fläskköttgryta)",
@@ -5917,7 +5968,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Tillsätt chiliflakes, koriander, bockhornsklöver och salt och rör runt ett par minuter"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Marinad till Mtsvadi cha shu shuli (Georgisk fläskköttgryta)",
@@ -5979,7 +6031,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda ingredienserna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Bruschetta",
@@ -6052,7 +6105,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Rosta brödet och häll lite olivolja på och gnid in vitlöken. Blanda tomat, lök, basilika och lägg på brödet. Salta och peppra"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Devilled eggs",
@@ -6139,7 +6193,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Fyll hålrummet i äggvitorna med röran, toppa ägghalvorna med grovhackad krasse."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Gorgonzolabakade fikon",
@@ -6247,7 +6302,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Tag ut fikonen ur ugnen och lägg upp dem på ruccolasalladen."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Gubbröra Per Morbergs",
@@ -6380,7 +6436,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Garnera med dillkvistar och gräslöksstrån."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Räkförrätt med granatäpple",
@@ -6501,7 +6558,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Dela räkorna om du anv prawns. Blanda allt och häll upp I höga champagneglas och ställ I kylen ca 30 min innan servering"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Salsa med gravad lax och koriander",
@@ -6621,7 +6679,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Skär gravlax i små bitar och lägg dem ovanpå."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Sirene po sjopski",
@@ -6725,7 +6784,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Knäck ägg över, strö över lite paprikapulver och grädda utan lock i ytterligare 10 minuter eller tills äggen stelnat."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Snittar med rökt lax och pepparrot",
@@ -6817,7 +6877,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Fördela lax och salladsblad över osten. Rulla ihop från geggan och utåt. "
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Snittar med rökt lax, äpple och valnötter",
@@ -6911,7 +6972,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Rulla ihop från geggan och utåt. "
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Biff boeuf bourguignon",
@@ -7076,7 +7138,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Servera med potatis"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Svinska kavarma",
@@ -7219,7 +7282,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Strö över grovhackad persilja."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Viltgryta",
@@ -7405,7 +7469,8 @@ const recipesData = [
         "sequence": 8,
         "text": "Servera med kokt potatis"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fettucine med gorgonzola, persilja och valnötter",
@@ -7445,7 +7510,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Fortsätt med valnötterna och sist vitlöksfräset. Servera i en djup skål"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fileja c''a nduja",
@@ -7541,7 +7607,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Blanda ner såsen i pastan. Servera med riven pecorino och eventuellt med hackad persilja."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Lasagne bolognese, Per Morbergs recept",
@@ -7710,7 +7777,8 @@ const recipesData = [
         "sequence": 14,
         "text": "Sätt in i ugnen och grädda din lasagne i 20-30 minuter i 200 grader."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Bechamelsås",
@@ -7800,7 +7868,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Smaka av med salt, peppar och några drag på muskotnöten."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Penne all'arrabbiata",
@@ -7892,7 +7961,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Serveras med penne och mycket bladpersilja"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Pesto",
@@ -7960,7 +8030,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Rosta pinjenötterna I en torr panna och låt kallna. Blanda alla ingredienserna utom olivoljan I en mixer. Tillsätt olivoljan I en tunn stråle till lagom konsistens"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Pizza",
@@ -8046,7 +8117,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Sätt in I ugnen och grädda 20 min. Lägg på lite basilikablad"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Tomatsås till pizza",
@@ -8124,7 +8196,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Räcker precis lagom till en pizza i långpannan"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Spaghetti al olio, aglio e peperoncino'",
@@ -8205,7 +8278,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Koka pastan och häll över i stekpannan. Strö på persilja och blanda väl"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Spaghetti alle vongole",
@@ -8340,7 +8414,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Smaka av med salt och svartpeppar och strö sedan över generöst med hackad persilja innan servering. Ringla den återstående mängden olivolja över rätten innan du serverar den rykande het."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Janssons frestelse",
@@ -8454,7 +8529,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Grädda mitt i ugnen i 50–60 minuter."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Caesarsallad",
@@ -8568,7 +8644,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Grilla eller stek baconet och skär sen i små bitar. Stek kycklingen. Tvätta salladen noga och riv ner i en stor skål. Häll på dressing, bacon, krutonger och hyvlad parmesan och blanda. Lägg kycklingen ovanpå"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Carribbean reef chicken",
@@ -8714,7 +8791,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Skeda över kycklingen och in i ugnen ytterligare några minuter"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chicken Kiev",
@@ -8822,7 +8900,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Servera med potatismos"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chicken parmigiana",
@@ -8866,7 +8945,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Strö parmesan ost, sen tomatsås och överst mozzarella. 200 grader i ca 10 min"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Tomatsås till Chicken parmigiana",
@@ -8924,7 +9004,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda alla ingredienserna I en kastrull och låt småputtra en stund"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kyckling med dragonsås",
@@ -8956,7 +9037,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Servera med ris"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Dragonsås",
@@ -9052,7 +9134,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Tillsätt vin, creme fraiche, grädde, dragon, fond och senap och låt koka ihop i några minuter"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Aioli",
@@ -9132,7 +9215,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Pressa i vitlök och ev chili"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Horiatiki",
@@ -9210,7 +9294,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Fördelaost och oliver jämnt och ringla över olivolja och salta och peppra"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Grillad kyckling med yoghurtsdressing",
@@ -9290,7 +9375,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Blanda yoghurtblandningen"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Yoghurtsdressing",
@@ -9366,7 +9452,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda samman alla ingredienser"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Haitisk kyckling",
@@ -9430,7 +9517,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Servera med ris"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Adobo seasoning",
@@ -9510,7 +9598,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda alla ingredienser"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kyckling med gorgonzolasås",
@@ -9554,7 +9643,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Servera med ris"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kycklingfilé med löksås",
@@ -9614,7 +9704,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Stek eller grilla kycklingarna och servera med sås och ris"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kycklingspett från medelhavet",
@@ -9730,7 +9821,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Grilla spetten och servera med Tzatziki, Hummus och Ajvar tillsammans med tomater och lök"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Machboos (kycklinggryta från Qatar)",
@@ -9919,7 +10011,8 @@ const recipesData = [
         "sequence": 10,
         "text": "Transfer the chicken and rice to a serving dish (either leave the chicken pieces tossed in with the rice, or place the chicken on top of the rice), and sprinkling with 1-2 tablespoons of rosewater."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Baharat",
@@ -10018,7 +10111,8 @@ const recipesData = [
         "section": ""
       }
     ],
-    "instructions": []
+    "instructions": [],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Picapollo dominicano",
@@ -10082,7 +10176,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Dutta över lite spiskummin"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Quesadilla",
@@ -10139,7 +10234,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Dela upp I tårtbitar och servera med Pico de gallo, guacamolen och Crème fraiche"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Guacamole",
@@ -10209,7 +10305,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Mosa avocadon rätt grovt och tärna tomaten (om den används). Pressa I vitlök och blanda med resten av ingredienserna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Biff rydberg",
@@ -10220,7 +10317,8 @@ const recipesData = [
       "Svensk husman"
     ],
     "ingredients": [],
-    "instructions": []
+    "instructions": [],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chili",
@@ -10396,7 +10494,8 @@ const recipesData = [
         "sequence": 8,
         "text": "Servera med Guacamole, créme fraiche på mjuka tortillabröd"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Grillad oxfilé med chimichurri och puré picante",
@@ -10428,7 +10527,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Grilla oxfilén och lägg chimichurrin uppe på och puré bredvid som ett mos"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Gulaschsoppa",
@@ -10566,7 +10666,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Smaka av med salt och svartpeppar och servera med gräddfil och bröd"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ostfyllda schnitzlar",
@@ -10692,7 +10793,8 @@ const recipesData = [
         "sequence": 8,
         "text": "Servera med pommes frites"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Oxfilé med grönpepparsås",
@@ -10720,7 +10822,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Stek filéerna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Pytt I panna",
@@ -10795,7 +10898,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Tärna kött, potatis och stek tillsammans med löken. Servera med stekt ägg, inlagda rödbetor o ketchup"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Albondigas",
@@ -10976,7 +11080,8 @@ const recipesData = [
         "sequence": 9,
         "text": "Låt koka i 10 minuter och smaka av"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Cevapcici",
@@ -11097,7 +11202,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Servera med tomat, rödlök, fårost och såserna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Hamburgare",
@@ -11213,7 +11319,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Fördela tillbehören"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Jordnöts- och limesås",
@@ -11286,7 +11393,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda allt. "
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Järpar I senapssås",
@@ -11346,7 +11454,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Servera med potatismos"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Sås till köttbullar från Zimbabwe",
@@ -11418,7 +11527,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Fräs vitlök och ingefära tills det doftar. Blanda i soja, honung, tomatpuré och vatten och låt det koka upp. Blanda i socker och sänk värmen och sjud i 3 - 5 minuter"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Köttbullar från Zimbabwe",
@@ -11524,7 +11634,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Lägg köttbullarna på ett fat eller en skål och skeda över en del av såsen. Resten tar man till. Serveras med potatismos"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Köttfärspaj",
@@ -11678,7 +11789,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Lägg färsen i formen och häll över äggstanningen. Ställ in i ugnen ca 30 minuter"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Lammfärskebab",
@@ -11751,7 +11863,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Forma färsen runt citrongräset längst ner vid roten till små järpformade bollar. Grilla spetten på medelvarm grill, vänd dem lite då och då"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Shepherd's paj",
@@ -11878,7 +11991,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Skeda över potatismoset över köttfärsen. Sätt upp graderna till 200 och baka i ca 20 minuter eller tills det bubblar och är krispigt och brunt"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Laxbiffar",
@@ -11956,7 +12070,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Lägg biffarna med fänkålsfröna nedåt i stekpannan och stek biffarna i olivolja 1,5-2 minuter på varje sida tills de fått en fin gyllenbrun färg."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Marinad till Haitisk kyckling",
@@ -12016,7 +12131,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Blanda adobo seasoning med övriga ingredienser"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Marinad till Picapollo",
@@ -12080,7 +12196,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda ingredienserna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Marinad till Sesamnudlar med honungskyckling",
@@ -12129,7 +12246,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda ingredienserna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Sås till Sesamnudlar med honungskyckling",
@@ -12210,7 +12328,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda ingredienserna och bl I ev lite vatten från nudelkoket"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Marinad till chicken curry with potato",
@@ -12275,7 +12394,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda alla ingredienserna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kantarellpaj med västerbottenost",
@@ -12400,7 +12520,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Fyll med kantarellerna och sedan äggstanningen och grädda i 25-30 minuter."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Klyftpotatis",
@@ -12476,7 +12597,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Blanda i sockerärterna när det är ca 5-7 minuter kvar. 40 - 45 min totalt"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Papas arrugadas",
@@ -12512,7 +12634,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Fyll på vatten så att det knappt täcker potatisen, häll i saltet och koka upp. Sänk värmen och lägg på ett hushållspapper mellan locket och kastrullen, så att vattnet lättare ångar bort. Koka tills potatisen är klar och häll bort eventuellt vatten. Ställ tillbaka på den varma plattan och låt potatisen torka några minuter. Dom ska bli skrynkliga"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Puré picante",
@@ -12580,7 +12703,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Blanda i grovt mosad potatis"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Råstekt potatiskaka",
@@ -12646,7 +12770,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Sänk värmen en aning och låt potatiskakan ligga tills den binder ihop och stekytan är fint gyllenbrun, 10-15 minuter på varje sida"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Couscoussallad",
@@ -12773,7 +12898,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Lägg upp couscousen på ett stort fat. Smula över fetaosten och hyvla över parmesan. Ringla ev lite olivolja över."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Halloumisallad",
@@ -12821,7 +12947,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Strö rikligt med basiika blad ovanpå"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Jordgubbssallad",
@@ -12932,7 +13059,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Blanda ned mynta (men spara några blad till garnering), basilika, salladsblad och pinjenötterna i jordgubbsbunken."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Rostad blomkål med vitlök, timjan och pinjenötter",
@@ -13025,7 +13153,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Klar efter ca 25 min"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Gambas al ajillo",
@@ -13078,7 +13207,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Lägg I kokta räkor så att dom blir varma (används råa, tills dom är rosa)"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Grillade havskräftor",
@@ -13178,7 +13308,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Grilla kräftorna på rygg tills köttet ser kokt ut och ryggarna blivit lite sotiga, ca 10 minuter."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kryddig räkgryta",
@@ -13295,7 +13426,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Lägg i räkorna och låt dem bli genomvarma precis före servering."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Moules marinières",
@@ -13403,7 +13535,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Garnera med resten av persiljan."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Skagenröra",
@@ -13486,7 +13619,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Skala och dela räkorna I mindre bitar. Blanda de övriga ingredienserna och vänd ner räkbitarna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Liten laxmacka med pepparrotskräm",
@@ -13563,7 +13697,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Bland I lite riven pepparrot I majonäsen och bred på brödet och toppa med lax eller räkor, svartpeppar och riven pepparrot"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Löjromscrostini med avokadokräm",
@@ -13652,7 +13787,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Bred avokadokrämen på brödet och toppa med räkor"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ädelostcrostini (fast på kavring)",
@@ -13784,7 +13920,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Bred rikligt med ost på en kavringskiva och toppa med fikonhack"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Löksoppa",
@@ -13902,7 +14039,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Gratinera på 275 grader tills osten fått en fin färg. Ca 5 - 10 minuter"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Rödlöksmarmelad",
@@ -13960,7 +14098,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Karamellisera socker i en kastrull. Lägg i löken och fräs den mjuk. Tillsätt lagerblad, peppar och vätskorna. Koka ihop till en simmig konsistens. Smaka av med socker eller vinäger efter smak"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Baba ganush",
@@ -14050,7 +14189,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Kan förvaras i kylen minst 5 dagar"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Béarnaisesås",
@@ -14134,7 +14274,8 @@ const recipesData = [
         "sequence": 4,
         "text": "När béan har skurit sig, prova först med några droppar vatten, annars i med en äggula till och vispa."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chilisås till hamburgare",
@@ -14234,7 +14375,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Mixa såsen med stavmixer ochlåt den kallna innan den används"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chimichurri",
@@ -14346,7 +14488,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Täck med plast och låt stå och dra i kylskåpet gärna en timma"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chipotlemajonäs",
@@ -14414,7 +14557,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda kryddorna och limejuice med majonäsen"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Grönpepparsås",
@@ -14502,7 +14646,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Tillsätt grädden och låt såsen koka ned till önskad konsistens. Häll över i samma panna som köttet stekt i för att få med köttsaften"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Hovmästarsås",
@@ -14581,7 +14726,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Tillsätt hackad dill och smaka av med salt"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Hummus",
@@ -14673,7 +14819,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Klarar sig i kylen minst en vecka"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Sesamsås till Ingefärs- och sesamköttbullar",
@@ -14738,7 +14885,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Mixa alla ingredienser I en mixer"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Senapssås till Järpar I senapssås",
@@ -14820,7 +14968,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Fräs smör och mjöl. Späd med buljong och grädde, koka 10 minuter. Krydda och smaka av såsen med soja och senap."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kantarellsås",
@@ -14950,7 +15099,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Blanda crème fraiche, vin, vatten och fond i en kastrull. Låt koka upp och sjud ca 3 min. Blanda i kantarellerna och tillsätt soja och socker. Krydda med 1 krm salt. Red såsen med majsstärkelsen utrörd i lite kallt vatten"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Gorgonzolasås",
@@ -15024,7 +15174,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Smula i gorgonzolan, dom hackade nötterna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Löksås",
@@ -15092,7 +15243,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda ingredienserna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Majonäs",
@@ -15154,7 +15306,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Majonnäsen är klar när den fått en krämig konsistens. Smaka av med salt."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Mojo (röd)",
@@ -15240,7 +15393,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Smaka av med salt"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Mojo (grön)",
@@ -15316,7 +15470,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Fortsätt att blanda I vinäger, vatten och olja"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Pico de gallo",
@@ -15371,7 +15526,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda ingredienserna och smaka av med salt"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Rosé- och olivsås",
@@ -15439,7 +15595,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda alla ingredienser"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Tahini",
@@ -15499,7 +15656,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Blanda I olivolja och ev vatten om den blir för tjock"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Tahini (naturell)",
@@ -15549,7 +15707,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Denna kan sparas i kylen i en månad"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Tapenad",
@@ -15597,7 +15756,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Mixa ihop alla ingredienserna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Tzatziki",
@@ -15649,7 +15809,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Riv gurkan på rivjärn och krama ur så mycket vatten som möjligt. Blanda med yoghurt, vitlök, salt och vitpeppar"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ugnsbakade tomathalvor",
@@ -15729,7 +15890,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Fördela kryddsmöret över tomathalvorna. Ugnsbaka dom tills dom känns mjuka, 20-30 minuter"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Falsk béarnaisesås",
@@ -15787,7 +15949,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Koka upp tills det tjocknar"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Biff sichuan med snabbwokade grönsaker",
@@ -15900,7 +16063,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Tillsätt selleri, morot, chili och salladslök och fräs i 2–3 minuter. Lägg i köttet, häll på såsen och stek i tillsammans i 1–2 minuter."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Sås till biff sichuan med snabbwokade grönsaker",
@@ -15964,7 +16128,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda ingredienserna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Krämig och het fläskfilégryta",
@@ -16111,7 +16276,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Dra av från värmen och lägg i den färska spenaten. Vänd runt och servera med ångande varmt ris."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Köttfärsgratäng med potatis",
@@ -16235,7 +16401,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Grädda i mitten av ugnen 50–55 minuter, prova med en sticka – potatisen och rotsellerin ska vara mjuka."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fläskfilé I balsamicosås",
@@ -16351,7 +16518,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Ta ut köttet, häll av det mesta av vattnet utan att hälla ut kryddorna. Häll sedan gräddblandningen över köttet. Är såsen väldigt ljus gäller du på lite mer soya. In i ugnen i ytterligare 15 minuter. Serveras till ris"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kycklingfilé med baconsås",
@@ -16429,7 +16597,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Ta ut kycklingen ur ugnen efter ca 20 min. Häll på såsen och låt stå i ugnen i ca 15 min till."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kung Pao",
@@ -16544,7 +16713,8 @@ const recipesData = [
         "sequence": 8,
         "text": "I med Shaoxing vinet och rör om"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Hot and numbing beef",
@@ -16671,7 +16841,8 @@ const recipesData = [
         "sequence": 6,
         "text": "I med köttet och resten av ingredienserna och låt koka ihop"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Masterstock till hot and numbing beef",
@@ -16773,7 +16944,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Efter att denna har använts till hot and numbing beef, låt den kallna och fyll en 1.5 liters flaska och lägg I frysen. Nästa gång du ska använda den fyll på 3/4 av alla ingredienser"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ugnspannkaka",
@@ -16871,7 +17043,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Häll över äggstanningen och skjuts in i ugnen i ca 30 min."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Lax I ugn med sojastekt broccoli",
@@ -16904,7 +17077,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Gör broccolisalladen under tiden laxen bakas"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Sojastekt broccoli",
@@ -16943,7 +17117,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Bryt broccolin i buketter och skär stammar i mindre bitar. Stek på hög värme i lite olja i några minuter till broccolin är lite brynt men fortfarande spänstig. Häll över soja sista minuten av stekningen."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Morotsoppa",
@@ -17056,7 +17231,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Mixa med stavmixer tills soppan är slät och tillsätt eventuellt mer vatten för att få en mindre trögflytande konsistens. Slå på grädden och smaka av med salt och peppar. Låt sjuda upp och servera."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ssam dak bulgogi",
@@ -17141,7 +17317,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Stek kycklingen till gyllene och genomstekt. Servera med ris, koreansk chiliaiolin och rädissalladen"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Rädissallad",
@@ -17198,7 +17375,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Skiva rädisorna så tunt som möjligt, gärna på mandolin och skiva salladslöken. Blanda risvinäger och strösocker tills sockret har lösts upp. Häll över rädisor och salladslök, rör om och låt stå och dra i 15 minuter. Strössla svarta sesamfrön på toppen."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Koreansk chiliolja",
@@ -17247,7 +17425,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda samman majonnäs, gochujang, sesamolja och vitlök till en stark aioli."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Larb",
@@ -17313,7 +17492,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Servera med ett stekt ägg"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Bujurdi",
@@ -17378,7 +17558,8 @@ const recipesData = [
         "sequence": 5,
         "text": "In I ugnen ca 30 min"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Egg keema",
@@ -17482,7 +17663,8 @@ const recipesData = [
         "sequence": 5,
         "text": "I med äggen och koka I 5 min till. Stäng av plattan och blanda I koriandern"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Frasig kycklingfilé med sesam- och tahinidipp",
@@ -17559,7 +17741,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Skiva upp kyckling, typ 1.5 cm skivor och servera med salladen och tahini dippsåsen"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Sesam- och tahinidipp",
@@ -17648,7 +17831,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Lägg äggulan i en skål. Vispa i tahini, soja, vinäger, sesamolja, socker, salt och chiliflakes. Tillsätt rapsoljan, lite i taget, under vispning."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Mangosallad",
@@ -17731,7 +17915,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Skala, kärna ur och finstrimla mangon. Ansa och finstrimla löken. Kärna ur och finstrimla chilin. Repa örterna. Blanda allt."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Dressing till mangosallad",
@@ -17780,7 +17965,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Vispa samman alla ingredienser och vänd ihop med salladen"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fläskfärs på salladsblad",
@@ -17892,7 +18078,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Toppa med finskuren lök, tunt skivade rädisor, jordnötter och koriander"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Såsen du inte får missa",
@@ -18016,7 +18203,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Sila såsen."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Indisk lammcurry",
@@ -18123,7 +18311,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Garnera med koriander och servera med chili och roti."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Melon och parmaskinka",
@@ -18171,7 +18360,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Om den ska användas som snacks, kan den skäras I kuber 2 x 2 cm ung, en bit parmaskinka, ett basilika blad och stick igenom en tandpetare"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chicken majestic",
@@ -18372,7 +18562,8 @@ const recipesData = [
         "sequence": 10,
         "text": "Garnera med den skivade löken och resten av koriandern"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Satay",
@@ -18470,7 +18661,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Grilla tills spetten blivit lite sotiga"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Spring onion maha eggs",
@@ -18596,7 +18788,8 @@ const recipesData = [
         "sequence": 9,
         "text": "Servera i tårtbitar när äggen stelnat"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fläskfilé I ugn med gorgonzola",
@@ -18690,7 +18883,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Därefter häller man över grädden och gräddar på 175 grader i 30 min."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Jerkkyckling med mangosalsa",
@@ -18819,7 +19013,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Servera kycklingen med mangosalsa och några limeklyftor och korianderkvistar"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Mangosalsa",
@@ -18905,7 +19100,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda alla ingredienserna till salsan (utom koriander) i en skål och krydda med havssalt och svartpeppar. Blanda ner koriander när du är redo att servera."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Cajonkryddad kyckling I ugn",
@@ -18965,7 +19161,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Stek kycklingen gyllenbrun på medelvärme och ställ åt sidan."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Cajonkrydda",
@@ -19036,7 +19233,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda samtliga kryddor och förvara i en burk med tättslutande lock"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Cajunkryddade rotfrukter I ugn",
@@ -19124,7 +19322,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Om receptet används tillsammans med Cajonkryddad kyckling I ugn: Toppa med riven ost och ställ in ugnen på grill. Låt kycklingen och rotfrukterna grillas tills osten är gyllenbrun."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chermoulamarinerad kyckling I ugn",
@@ -19152,7 +19351,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Servera grönsaker, ris eller rotfrukter till"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kycklingfärsskålar med jordnötsås",
@@ -19239,7 +19439,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Lossa 6 stora blad från salladen och lägg på ett fat. Stek färsen tilss genomstekt och lägg upp på salladsbladen."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Jordnötssås",
@@ -19309,7 +19510,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Koka upp vattnet med sockret så att det löses upp. Häll det heta vattnet över jordnötssmöret och rör till en jämn sås. Tillsätt soja, lime och chiliflakes. Krydda med salt."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ravioli med pepparsås",
@@ -19435,7 +19637,8 @@ const recipesData = [
         "sequence": 14,
         "text": "Vänd nu ner raviolin i såsen och servera i en lämplig tallrik. Finns det fyllning kvar är det trevligt att strö fyllning över raviolin samt hyvla parmesan över."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Pastadeg",
@@ -19491,7 +19694,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Knåda degen på en mjölad arbetsyta cirka 5 minuter. Arbeta degen tills den är jämn och elastisk. Om degen känns kladdig arbeta in ytterligare lite mjöl. Lägg degen i en plastfolie och låt den vila i kylskåp i 20 minuter."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Pepparsås",
@@ -19597,7 +19801,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Låt såsen småkoka minst 10 minuter, rör då och då. Smaka av med salt."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Picklad rödlök",
@@ -19649,7 +19854,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Skiva rödlöken tunt och lägg i lagen. Häll allt i en burk med tätslutande lock. Låt stå i kylen en timma."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Tonfiskröra",
@@ -19736,7 +19942,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda alla ingredienser"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Morots- och halloumibiffar med tzatziki",
@@ -19768,7 +19975,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Stek biffarna i olja på medelvärme i en stekpanna i ungefär 2 minuter på varje sida eller tills gyllenbruna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Bakade betor med chevre",
@@ -19870,7 +20078,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Lägg rucola i botten av djupa tallrikar. Lägg på de rostade rödbetorna med chèvreost och ringla på lite extra olivolja"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chevrefyllda bistrobiffar med fransk sås",
@@ -20051,7 +20260,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Fräs vitlöken i smör i en kastrull, blanda ner mjölet. Späd med sky och vatten, tillsätt fond och grädde och koka upp. Sjud såsen i 5 min. Tillsätt örtkryddor, sambal, tomatpuré, curry, citronsaft och salt. Häll såsen över biffarna och värm."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Bahn mi",
@@ -20183,7 +20393,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Stek köttet med marinaden i olja under omrörning ca 3 min. Lägg köttet i brödbitarna och strö över koriandern. Servera genast."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Frittata",
@@ -20271,7 +20482,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Lägg över den på en tallrik som är störren en stekpannan, botten mot botten av tallriken. Lägg stekpannan över omeletten och vänd tallriken och stek andra sidan ca 5 min till"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kyckling med whiskysås",
@@ -20359,7 +20571,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Servera med t ex klyftpotatis."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Dhaba style spicy chicken",
@@ -20501,14 +20714,16 @@ const recipesData = [
         "sequence": 3,
         "text": "Hetta upp en panna och fräs dom torkade cilifrukterna med currybladen, blanda sen i koriander, garam masala, salt och chilipuler. Blanda väl och sen i med chilisåsen och sist yoghurten, balnda ner den friterade kycklingen, skvätt över lite citron"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Vitlöksspäckad lammstek med rotfrukter",
     "slug": "vitlöksspäckad-lammstek-med-rotfrukter",
     "categories": [],
     "ingredients": [],
-    "instructions": []
+    "instructions": [],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Tasty & easy masala omelette",
@@ -20607,7 +20822,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Stek på svag värme i 3 - 4 min och vänd med hjälp av en tallrik om det inte går med stekspade och stek ung like länge på andra sidan"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Svampsoppa",
@@ -20737,7 +20953,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Tillsätt vinet och låt det koka in. Tillsätt sedan grönsaksbuljong och låt det koka upp. Koka i 5 minuter till. Ta kastrullen från värmen och mixa den slät med en stavmixer. Tillsätt grädden samtidigt."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fläskfilégryta",
@@ -20874,7 +21091,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Innan servering, strö över hackad färsk persilja och lägg några kvistar timjan över."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fänkålssoppa med räkor",
@@ -20989,7 +21207,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Mixa soppan slät med mixerstav och krydda med salt och cayennepeppar. Servera soppan med räkor och garnera med dill."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Sesamdressing",
@@ -21054,7 +21273,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda alla ingredienser"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Universalsallad",
@@ -21087,7 +21307,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Droppa av ordentligt i ett durkslag"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Caprese",
@@ -21127,7 +21348,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Skär mozzarellan och tomaten i 0.5 centimeter stora skivor och lägg upp varannan tomat/mozzarella och garnera med basilika"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ngoh Hiang",
@@ -21277,7 +21499,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Servera med nån chilisås av nåt slag"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Potatis & palsternackssoppa",
@@ -21378,7 +21601,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Mixa allt tills det är krämigt och lent. Häll i grädde. Koka upp under omröring. Är den för tjock kan du enkelt bara ha i lite mer grädde eller vatten och sedan koka upp igen."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Pommes frites",
@@ -21446,7 +21670,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Värm oljan till 180 grader. Fritera potatisarna slutligen ca 3 minuter eller tills gyllenbruna. Låt torka på papper och salta före servering. För ännu krispigare resultat, frys potatisarna efter första friteringen och fritera den mängd som önskas enligt steg 3."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Tonkatsu - japansk schnitzel",
@@ -21541,7 +21766,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Skär upp i skivor och servera med tonkatsusås, universalsallad och ris. Strö ev över sesamfrön. Ät gärna med pinnar!"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Äggmuffins",
@@ -21601,7 +21827,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda alla ingredienser och häll upp i muffinsplåt. 175 grader i ca 20 min"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Gratinerad blomkål med beasmör",
@@ -21690,7 +21917,8 @@ const recipesData = [
         "sequence": 4,
         "text": "In I ugnen ca 30 min i 175 grader. Strö på timjan innan servering och servera med te x skinka, kyckling eller vad man vill"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Crispy Chili Beef",
@@ -21851,7 +22079,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Servera genast med ångande nykokt ris."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Spicy beef salad",
@@ -21978,7 +22207,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Förbered grönsakerna och blanda med kött och dressing"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Köttfärsmuffins",
@@ -22083,7 +22313,8 @@ const recipesData = [
         "sequence": 4,
         "text": "In i ugnen ca 20 min i 225 grader"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Saltimbocca",
@@ -22176,7 +22407,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Servera med t ex ångad spenat, Bok Choy eller sallad"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Vårrullar",
@@ -22290,7 +22522,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Hetta upp frityroljan till 180 grader. Fritera vårrullarna, endast några åt gången, låt de inte vidröra varandra, då kan de fastna. Var försiktig då det kan skvätta het olja. Stå en bit ifrån om du kan. När rullarna blivit frasiga och börjar få lite färg är de klara. Låt rinna av på galler eller trippelt hushållspapper."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Bang bang chicken",
@@ -22440,7 +22673,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Lägg kyckling och gurka i två skålar och fördela såsen ovanpå. Strö på vårlök och sesamfrån."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Köttfärssoppa",
@@ -22584,7 +22818,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Låt puttra 10-15 minuter."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Blomkålsmos",
@@ -22640,7 +22875,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Mixa med smör och bjölk till du har ett mos. Salta och peppra"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Vietnamesiska färska vårrullar",
@@ -22748,7 +22984,7 @@ const recipesData = [
       },
       {
         "sequence": 4,
-        "text": "Ta fram en stor skål eller fat med kallt vatten. Doppa ett rispapper i vatten och låt det bli blött men inte genommjukt. Vänd en gång.\u2028"
+        "text": "Ta fram en stor skål eller fat med kallt vatten. Doppa ett rispapper i vatten och låt det bli blött men inte genommjukt. Vänd en gång."
       },
       {
         "sequence": 5,
@@ -22762,7 +22998,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Det går även bra att göra sina egna rullar runt bordet."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Pho",
@@ -22946,7 +23183,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Bottna  skålar med nudlar och böngroddar. Häll över den heta soppan och dekorera med salladslök, örterna, lime samt färsk chili. Låt var och en smaka av sin pho med sriracha."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ångad kyckling från Bahamas",
@@ -23168,7 +23406,8 @@ const recipesData = [
         "sequence": 8,
         "text": "Servera med potatis, blomkålsmos eller ris"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Raquel’s Seasoned Salt",
@@ -23224,7 +23463,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda kryddorna."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Bakkwa",
@@ -23332,7 +23572,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Vänd skivorna och pensla och in i ca 5 minuter till. Kan behövas lite längre på denna sida då den legat nedåt tidigare"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Gobi manchurian",
@@ -23468,7 +23709,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Blanda 1 tsk majsmjöl med 2 msk vatten in skål. Häll på 1 dl vatten i woken och tillsätt mjöl och vettenblandningen en tesked i taget och blanda hela tiden. När såsen har tjocknat, häll i blomkålen och blanda väl."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Vitkålsfräs",
@@ -23557,7 +23799,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Tillsätt chiliflakes, soya och smaka av med salt och svartpeppar."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Yoghurt med lime",
@@ -23599,7 +23842,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda salt, peppar och lite lime i yoghurten"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kycklingwok med vitkål och broccoli",
@@ -23710,7 +23954,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Strö över koriander och servera woken med ris."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Tom Kah Gai",
@@ -23854,7 +24099,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Strö hackad koriander och strimlad salladslök över den varma soppan och servera direkt i soppskålar."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ingefärs shot",
@@ -23933,7 +24179,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Håller sig i en vecka minst. Skaka innan användning, då gurmejan och kanelen lägger sig i botten"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Strimlad kyckling med gurka och chili och sojasås",
@@ -24059,7 +24306,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Dra isär kycklingen i lagom munsbitar och blanda med gurka, chili och chilisåsen"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Brysselkålssallad",
@@ -24150,7 +24398,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Skiva halloumin och stek på medelvärme. Blanda ner I salladen"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Thai spicy pork cakes (Tod moon moo)",
@@ -24248,7 +24497,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Fritera till gyllenbruna och doppa I Lime och jordnötsåsen"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Broccolisoppa",
@@ -24356,7 +24606,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Vill du ha en lite tjockare soppa kan du reda den med lite maizenaredning."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Finger licking chicken snack recipe",
@@ -24485,7 +24736,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Doppa I nån typ av chilisås/olja"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Taiwanese popcorn chicken",
@@ -24600,7 +24852,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Doppa I nån typ av chilisås/olja"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Korianska köttbullar I sötsur sås",
@@ -24753,7 +25006,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Servera med ris eller v ad du vill"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Pulled pork",
@@ -24841,7 +25095,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Pensla köttet 3–4 gånger med såsen när ca 1 timme återstår av tillagningstiden. Ta ut och riv köttet i bitar med gafflar."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Sås till pulled pork",
@@ -24911,7 +25166,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda alla ingredienser till såsen i en kastrull och låt den koka upp. Låt koka ca 3 min och låt sedan såsen kallna."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Iraqi kabab",
@@ -25005,7 +25261,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Servera med te x grillade tomater, grillad lök och grillade chilis. Strö över sumac och persilja"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Thai garlic prawns",
@@ -25116,7 +25373,8 @@ const recipesData = [
         "sequence": 3,
         "text": "I med räkorna och låt bli nästan färdiga innan resten blandas I "
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Grillad kyckling med adjika",
@@ -25124,7 +25382,8 @@ const recipesData = [
     "portions": 2,
     "categories": [],
     "ingredients": [],
-    "instructions": []
+    "instructions": [],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Arroz con pollo",
@@ -25132,7 +25391,8 @@ const recipesData = [
     "portions": 2,
     "categories": [],
     "ingredients": [],
-    "instructions": []
+    "instructions": [],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ceviche con camarón",
@@ -25140,7 +25400,8 @@ const recipesData = [
     "portions": 2,
     "categories": [],
     "ingredients": [],
-    "instructions": []
+    "instructions": [],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Krydding räkcurry med tomater",
@@ -25148,7 +25409,8 @@ const recipesData = [
     "portions": 2,
     "categories": [],
     "ingredients": [],
-    "instructions": []
+    "instructions": [],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Poulet nyembwe",
@@ -25156,7 +25418,8 @@ const recipesData = [
     "portions": 2,
     "categories": [],
     "ingredients": [],
-    "instructions": []
+    "instructions": [],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kyckling mandi",
@@ -25164,7 +25427,8 @@ const recipesData = [
     "portions": 2,
     "categories": [],
     "ingredients": [],
-    "instructions": []
+    "instructions": [],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Grillspett med jollofris",
@@ -25172,7 +25436,8 @@ const recipesData = [
     "portions": 2,
     "categories": [],
     "ingredients": [],
-    "instructions": []
+    "instructions": [],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fläskfilégryta med ädelost",
@@ -25280,7 +25545,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Servera med ris eller vad du vill"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kycklinggratäng med bacon och dijonsås",
@@ -25377,7 +25643,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Servera med ris eller vad du vill"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fransk potatissallad",
@@ -25499,7 +25766,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Servera med grillad korv, rostbiff eller vad du vill"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Tagliata med rostad vitlökssås",
@@ -25618,7 +25886,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Servera tillsammans med den rostade mandelpotatisen."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Torskrygg med krämig dillsås",
@@ -25740,7 +26009,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Tillaga i ugn 10–15 min. Innertemp ska vara 52°. Servera med kokt potatis "
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Menemen",
@@ -25866,7 +26136,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Garnera med persilja ovh chiliflakes"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Hummus a la Tareq",
@@ -25990,7 +26261,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Hummus kan både serveras som ett tillbehör och som en egen måltid i sig tillsammans med bröd och grönsaker. Om du inte har kokat egna kikärtor utan vill köpa färdigkokta, ta då två burkar. "
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Gazpacho",
@@ -26093,7 +26365,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Soppan ska ätas iskall, så in I frysen om den ska ätas snart annars kylskåpet"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fläskfilé provençale",
@@ -26103,7 +26376,8 @@ const recipesData = [
       "Fläskfilé"
     ],
     "ingredients": [],
-    "instructions": []
+    "instructions": [],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Salmorejo",
@@ -26200,7 +26474,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Garnera med hackat ägg och strösslad skinka"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Shawarma",
@@ -26394,7 +26669,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Servera med vitlökssås, tahinisås och kebabsås"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Vitlökssås",
@@ -26454,7 +26730,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Pressa vitlöken och blanda med resterande ingredienser"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Tahinisås",
@@ -26518,7 +26795,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Blanda tahinin med övriga ingredienser"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Toum (kebabsås)",
@@ -26578,7 +26856,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Droppa sedan I oljan långsamt samtidigt som du fortsätter att mixa tills du får en fluffig kräm"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fläsk och löksås",
@@ -26671,7 +26950,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Servera med kokt potatis"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Svenska Köttbullar",
@@ -26804,7 +27084,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Servera med potatismos elleer kokt potatis och en gräddsås"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Inlagd gurka",
@@ -26877,7 +27158,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Lägg gurkan I lagen ocfh låt stå och dra I ett par timmar"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Chicken omelette",
@@ -26982,7 +27264,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Skiva tomaterna och strimla paprikan och tryck försiktigt ner dom I omeletten (en tomatskiva, två strimlor paprika, en tomatskiva etc) och stek ytterligare 3-4 minuter tills omeletten har stelnat"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Sötpotatissoppa med chorizo",
@@ -27125,7 +27408,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Toppa soppan med rostade pumpakärnor, chorizo, färsk timjan "
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Korean steak salad",
@@ -27278,7 +27562,8 @@ const recipesData = [
       {
         "text": "Lägg alla grönsakerna på ett stort fat, lägg köttet överst och ringla över dressingen. Strössla över sesamfrön och pumpakärnor"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Pepparbiff med fransk senapsås",
@@ -27424,7 +27709,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Lägg biffarna i såsen och koka ett par minuter. Lägg i tomaterna. Servera med klyftpotatis och picklad gurka."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Sötsyrlig nudelwok med heta ingefärsräkor",
@@ -27593,7 +27879,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Vänd upp på två tallrikar och toppa med räkorna och den färska koriandern"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Tortilla española",
@@ -27671,7 +27958,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Vänd med hjälp av en tallrik och minska värmen."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Gurksallad",
@@ -27773,7 +28061,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Strö sesamfrön och koriander ovanpå"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Eriks spanska torsk",
@@ -27861,7 +28150,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Låt sjuda på svag värme tills fisken är klar"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Shikshuka (äggröra med tomat)",
@@ -27941,7 +28231,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Blanda I äggen och blanda så du får en röd-orange äggröra"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Larbbiffar",
@@ -28063,7 +28354,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Kan ätas bara eller med ris. Sweet chilisås passar bra till"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ramenbuljong",
@@ -28187,7 +28479,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Sila buljongen och salta efter smak"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ramen",
@@ -28286,7 +28579,8 @@ const recipesData = [
         "sequence": 9,
         "text": "Toppa med lite sesamfrön"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Wasabi steak",
@@ -28449,7 +28743,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Strö över sesamfröna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Patata brava sås",
@@ -28564,7 +28859,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Mixa allt med stavmixer"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Tomat och paprikasoppa med halloumi",
@@ -28677,7 +28973,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Mixa ihop soppan med stavmixer och häll upp I skålar och toppa med den stekta halloumin"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Räklåda",
@@ -28776,7 +29073,8 @@ const recipesData = [
         "sequence": 7,
         "text": "In I ugnen tills krutongerna har fått en fin färg, ca 10 min"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Rödbetor med chevre",
@@ -28856,7 +29154,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Ringla över honung och strö över pinjenötter och servera varmt."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Het räksallad",
@@ -28956,7 +29255,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Vänd ihop grönsaker, frukt, limeolja och räkor, servera inom 20 minuter."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Vit kebabsås",
@@ -29010,7 +29310,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda ingridienserna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Röd kebabsås",
@@ -29070,7 +29371,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda ingridienserna"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Kycklingkebab med pitabröd",
@@ -29195,7 +29497,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Låt kycklingbitarna svalna något innan den och grönsakerna äts I pitabröd med den röda och vita såsen ovanpå"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ajvar",
@@ -29288,7 +29591,8 @@ const recipesData = [
         "sequence": 8,
         "text": "Salta och peppra och låt svalna till rumstemperatur"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Laxtartar",
@@ -29391,7 +29695,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Har du en matring, lägger du först I avokadon, sen mangon och sist laxröran. Har du ingen ring, kan du antingen bara blanda allt eller använd en mindre skål som du då först lägger I laxröran, sen mangon och sist avokadon, lägg en tallrik över skålen och vänd den upp och ner"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Dressing till koreansk biffsallad",
@@ -29463,7 +29768,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Rör samman alla ingredienserna till dressingen. Ställ åt sidan."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Koreansk biffsallad",
@@ -29569,7 +29875,8 @@ const recipesData = [
         "sequence": 2,
         "text": "Dela tomaten och gurkan I munstora bitar och lägg alla grönsaker på ett stort salladsfat. Skiva upp köttet och lägg överst. Ringla över dressing och strö gräslök och sesamfrön på."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Bbq-kycklingsallad",
@@ -29670,7 +29977,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Blanda kyckling och grönsak och toppa med den picklade löken. Servera med honungsdressingen"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Honungsdressing",
@@ -29722,7 +30030,8 @@ const recipesData = [
         "sequence": 1,
         "text": "Blanda ingredienserna och smaka av med salt och svartpeppar"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Nudelsallad med räkor, mango och jordnötter",
@@ -29872,7 +30181,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Toppa med räkor, jordnötter och örter. Servera med limeklyftor."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Mutton keema curry",
@@ -30078,7 +30388,8 @@ const recipesData = [
         "sequence": 13,
         "text": "Sätt av värmen och tillsätt korianderbladen"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Mangolax a la Kerela",
@@ -30277,7 +30588,8 @@ const recipesData = [
         "sequence": 11,
         "text": "Häll blandningen över laxgrytan precis innan servering."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Sticky pork",
@@ -30398,7 +30710,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Toppa med sesamfrön och vårlök och servera med ris"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Turdievas koreanska kyckling",
@@ -30545,7 +30858,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Toppa med rostade sesamfrön (rosta i torr panna) och finstrimlad salladslök. Servera med ris."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ormgurka",
@@ -30632,7 +30946,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Skölj gurkorna med kallt vatten, lägg upp i en skål och ringla över dressingen, rör om försiktigt."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Marinerade böngroddar",
@@ -30705,7 +31020,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Toppa med sesamfrön (rosta dem i en torr panna)."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Sambar",
@@ -30927,7 +31243,8 @@ const recipesData = [
         "sequence": 13,
         "text": "Häll över fräset i grytan och lå det hela sjuda i 2-3 minuter."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Himmelskt god röra med kallrökt lax och räkor",
@@ -31032,7 +31349,8 @@ const recipesData = [
         "sequence": 3,
         "text": "Servera I baguette eller ugnsbakad potatis."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Bulgogilax",
@@ -31047,7 +31365,8 @@ const recipesData = [
     ],
     "instructions": [
       {}
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ugnsrostad bulgogikyckling med klyftpotatis och chilimajonnäs",
@@ -31062,7 +31381,8 @@ const recipesData = [
     ],
     "instructions": [
       {}
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Spaghetti alla carbonara",
@@ -31125,7 +31445,8 @@ const recipesData = [
     ],
     "instructions": [
       {}
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Korv Stroganoff",
@@ -31221,7 +31542,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Servera med ris"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fläskfilégryta med bacon",
@@ -31323,7 +31645,8 @@ const recipesData = [
         "sequence": 5,
         "text": "Smaka av med salt och peppar"
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Koreansk friterad kyckling",
@@ -31506,7 +31829,8 @@ const recipesData = [
         "sequence": 7,
         "text": "Servera genast med kokt ris och ev kimchi."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Ädelostrullader",
@@ -31600,7 +31924,8 @@ const recipesData = [
         "sequence": 6,
         "text": "Lägg tillbaka rulladerna och servera med klyftpotatis."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Fänkål- and sellerisoppa",
@@ -31700,7 +32025,8 @@ const recipesData = [
         "sequence": 4,
         "text": "Strimla och fräs skinkan och hacka gräslöken. Rör ner dem i soppan strax fóre servering."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   },
   {
     "title": "Geschnetzeltes",
@@ -31832,8 +32158,9 @@ const recipesData = [
         "sequence": 5,
         "text": "Strö över hackad persilja."
       }
-    ]
+    ],
+    "addedBy": "Monica & Hans"
   }
 ];
 
-export default recipesData;
+export default recipes;

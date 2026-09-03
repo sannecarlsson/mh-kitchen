@@ -110,6 +110,7 @@
 .recipe-card-link {
   text-decoration: none;
   color: inherit;
+  height: 100%;
 }
 
 .recipe-card-top {
@@ -134,7 +135,7 @@
   color: #274b31;
   font-size: 1.875rem;
   font-weight: 600;
-  margin: 0 0 1.25rem;
+  margin: 0 0 0.1rem;
 }
 
 .recipe-card p {
@@ -143,17 +144,16 @@
 
 .recipe-card-info {
   display: flex;
-  justify-content: flex-end;
   gap: 0.625rem;
-  border-top: 1px solid #C8D2C3;
+  padding-top: 0.2rem;
   font-size: 0.75rem;
-  margin-top: auto;
+  padding-bottom: 1rem;
 }
 
 .recipe-card-info svg {
   width: 0.9375rem;
   height: 0.9375rem;
-  margin-top: 0.625rem;
+  margin-top: 0;
 }
 
 .recipe-card-ingredients {
@@ -161,6 +161,7 @@
   font-size: 0.875rem;
   line-height: 1.5;
   font-weight: 100;
+  padding-bottom: 1.5rem;
 }
 
 .recipe-list-title {
@@ -171,6 +172,17 @@
   margin-bottom: 1.5625rem;
 }
 
+.added-by {
+  border-top: 1px solid #26382B;
+  margin-top: auto;
+  text-align: right;
+  padding-top: 0.5rem;
+}
+
+.added-by p {
+  font-size: 0.7rem;
+  margin: 0;
+}
 
 /* Receptsida */
 

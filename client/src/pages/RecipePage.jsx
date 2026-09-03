@@ -35,6 +35,7 @@ function RecipePage() {
       <div className="recipe-meta">
         <p>{recipe.categories.join(" · ")}</p>
         <p>{recipe.portions} portioner</p>
+        <p>Tillagt av {recipe.addedBy}</p>
       </div>
 
       <div className="recipe-ingredients">
