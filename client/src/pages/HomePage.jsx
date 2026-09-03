@@ -1,10 +1,26 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import SearchBar from "../components/SearchBar.jsx";
 import RecipeCard from "../components/RecipeCard.jsx";
-import recipes from "../data/recipesData.js";
+import { supabase } from "../utils/supabase.js";
 
 function HomePage(props) {
   const [searchTerm, setSearchTerm] = useState("");
+  const [recipes, setRecipes] = useState([]);
+
+  useEffect(() => {
+    async function fetchRecipes() {
+      const { data, error } = await supabase.from("recipes").select("*");
+
+      if (error) {
+        console.error("Kunde inte hämta recept:", error);
+        return;
+      }
+
+      setRecipes(data);
+    }
+
+    fetchRecipes();
+  }, []);
 
   return (
     <>
@@ -21,19 +37,13 @@ function HomePage(props) {
             const search = searchTerm.toLowerCase();
 
             const ingredientMatch = recipe.ingredients.some((ingredient) => {
-              return (ingredient.name || "")
-                .toLowerCase()
-                .includes(search);
+              return (ingredient.name || "").toLowerCase().includes(search);
             });
 
-            const titleMatch = recipe.title
-              .toLowerCase()
-              .includes(search);
+            const titleMatch = recipe.title.toLowerCase().includes(search);
 
             const categoryMatch = recipe.categories.some((category) => {
-              return category
-                .toLowerCase()
-                .includes(search);
+              return category.toLowerCase().includes(search);
             });
 
             return titleMatch || ingredientMatch || categoryMatch;

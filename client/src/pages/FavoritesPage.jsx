@@ -1,7 +1,27 @@
-import recipes from "../data/recipesData.js";
+import { useEffect, useState } from "react";
 import RecipeCard from "../components/RecipeCard.jsx";
+import { supabase } from "../utils/supabase.js";
 
 function FavoritesPage(props) {
+  const [recipes, setRecipes] = useState([]);
+
+  useEffect(() => {
+    async function fetchRecipes() {
+      const { data, error } = await supabase
+        .from("recipes")
+        .select("*");
+
+      if (error) {
+        console.error("Kunde inte hämta recept:", error);
+        return;
+      }
+
+      setRecipes(data);
+    }
+
+    fetchRecipes();
+  }, []);
+
   const favoriteRecipes = recipes.filter((recipe) =>
     props.favorites.includes(recipe.slug)
   );
@@ -22,6 +42,7 @@ function FavoritesPage(props) {
               ingredients={recipe.ingredients}
               isFavorite={props.favorites.includes(recipe.slug)}
               toggleFavorite={props.toggleFavorite}
+              addedBy={recipe.added_by}
             />
           );
         })}

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Heart } from "lucide-react";
+import { Heart, Pencil } from "lucide-react";
 
 function Header() {
   return (
@@ -8,10 +8,17 @@ function Header() {
         <h1>M&H Kitchen</h1>
       </Link>
 
-      <Link to="/favoriter" className="favorites-link">
-        <Heart fill="currentColor" />
-        Favoriter
-      </Link>
+      <div className="header-links">
+        <Link to="/favoriter" className="favorites-link">
+          <Heart fill="currentColor" />
+          Favoriter
+        </Link>
+
+        <Link to="/lagg-till-recept" className="add-recipe-link">
+          <Pencil />
+          Lägg till recept
+        </Link>
+      </div>
     </header>
   );
 }
