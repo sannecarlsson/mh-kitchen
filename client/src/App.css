@@ -1,0 +1,475 @@
+.site-header {
+  position: relative;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.site-header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.favorites-link {
+  position: absolute;
+  right: 2.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  text-decoration: none;
+  color: #26382B;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  justify-content: center;
+}
+
+.favorites-link svg {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+.site-header h1 {
+  color: #26382B;
+  font-size: 3.625rem;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0;
+}
+
+
+/* Sök */
+
+.search-section {
+  background-color: #DDE5D8;
+  margin: 1.25rem;
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+  text-align: center;
+  box-shadow: 0 0.25rem 0.75rem rgba(38, 56, 43, 0.08);
+}
+
+.search-section h2 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #26382B;
+  margin-top: 0.125rem;
+}
+
+.search-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 34.375rem;
+}
+
+.search-wrapper svg {
+  position: absolute;
+  left: 2.1875rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.125rem;
+  height: 1.125rem;
+  color: #6F776C;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 31.25rem;
+  box-sizing: border-box;
+  border-radius: 1.25rem;
+  border: 1px solid lightgrey;
+  padding: 0.625rem 0.9375rem 0.625rem 2.625rem;
+}
+
+
+/* Receptlista */
+
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 18.75rem));
+  gap: 1.25rem;
+  justify-content: center;
+  margin-bottom: 3.75rem;
+}
+
+.recipe-card {
+  width: 18.75rem;
+  max-width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #E4E9DF;
+  border-radius: 0.625rem;
+  overflow: hidden;
+  padding: 1.5625rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(38, 56, 43, 0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.recipe-card-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipe-card-top svg {
+  color: #26382B;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.recipe-card-top p {
+  color: #274b31;
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.recipe-card h2 {
+  color: #274b31;
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin: 0 0 1.25rem;
+}
+
+.recipe-card p {
+  margin: 0;
+}
+
+.recipe-card-info {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.625rem;
+  border-top: 1px solid #C8D2C3;
+  font-size: 0.75rem;
+  margin-top: auto;
+}
+
+.recipe-card-info svg {
+  width: 0.9375rem;
+  height: 0.9375rem;
+  margin-top: 0.625rem;
+}
+
+.recipe-card-ingredients {
+  color: #3e5636;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  font-weight: 100;
+}
+
+.recipe-list-title {
+  text-align: center;
+  color: #26382B;
+  font-size: 2rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.5625rem;
+}
+
+
+/* Receptsida */
+
+.recipe-page {
+  width: 37.5rem;
+  max-width: 100%;
+  background-color: #E4E9DF;
+  margin: 2.5rem auto 0;
+  border-radius: 0.625rem;
+  padding: 1.5625rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(38, 56, 43, 0.08);
+  color: #3e5636;
+}
+
+.recipe-page h1 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.recipe-meta {
+  display: flex;
+  gap: 1.25rem;
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  justify-content: center;
+}
+
+.recipe-ingredients h2 {
+  border-top: 1px solid #979e95;
+  padding-top: 0.625rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-top: 1.875rem;
+  margin-bottom: 0.3125rem;
+}
+
+.recipe-ingredients p {
+  font-size: 0.875rem;
+  line-height: 2;
+  font-weight: 100;
+  margin: 0;
+}
+
+.recipe-instructions h2 {
+  border-top: 1px solid #979e95;
+  padding-top: 0.625rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.recipe-instructions p {
+  margin-top: 0.3125rem;
+  font-size: 0.875rem;
+}
+
+
+/* Lägg till recept */
+
+.recipe-main-info {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.recipe-name-field {
+  width: 22rem;
+}
+
+.added-by-field {
+  width: 12rem;
+}
+
+.add-recipe-page {
+  max-width: 56.25rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 5rem;
+}
+
+.add-recipe-page h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #26382B;
+}
+
+.add-recipe-page form {
+  background-color: #DDE5D8;
+  padding: 2rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(38, 56, 43, 0.08);
+}
+
+.add-recipe-page label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: #26382B;
+  font-weight: 600;
+}
+
+.add-recipe-page input,
+.add-recipe-page textarea,
+.add-recipe-page select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.9rem 1rem;
+  border: 1px solid #cfd8cf;
+  border-radius: 0.75rem;
+  background-color: white;
+  color: #2d2d2d;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.add-recipe-page input::placeholder,
+.add-recipe-page textarea::placeholder {
+  color: #757575;
+  opacity: 1;
+}
+
+.add-recipe-page select {
+  color: #757575;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.add-recipe-page select option {
+  color: #2d2d2d;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.add-recipe-page input:focus,
+.add-recipe-page textarea:focus,
+.add-recipe-page select:focus {
+  outline: none;
+  border-color: #6f876f;
+  box-shadow: 0 0 0 0.1875rem rgba(104, 133, 110, 0.15);
+}
+
+.add-recipe-page textarea {
+  min-height: 7.5rem;
+  resize: vertical;
+}
+
+.add-recipe-page h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #26382B;
+  font-size: 1.5rem;
+}
+
+
+/* Kategorier */
+
+.category-section {
+  margin-bottom: 1.5rem;
+}
+
+.category-section p {
+  margin-bottom: 0.8rem;
+  color: #26382B;
+  font-weight: 600;
+}
+
+.category-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.category-option {
+  padding: 0.35rem 0.6rem;
+  border: 1px solid #9eb2a1;
+  border-radius: 0.625rem;
+  background-color: white;
+  color: #3f5d47;
+  font-size: 0.9rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.category-option:hover {
+  background-color: #dce7dc;
+}
+
+.category-option.selected {
+  background-color: #3f5d47;
+  border-color: #3f5d47;
+  color: white;
+}
+
+
+/* Portioner och tillagningstid */
+
+.recipe-details-row {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.recipe-details-row label {
+  width: 10rem;
+}
+
+
+/* Ingredienser */
+
+.ingredient-row {
+  display: grid;
+  grid-template-columns: 7.5rem 7.5rem 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.ingredient-row select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236F776C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
+  padding-right: 2.5rem;
+}
+
+
+/* Lägg till-knappar */
+
+.add-field-button {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  background-color: #dce7dc;
+  color: #26382B;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.add-field-button:hover {
+  background-color: #cbdacb;
+}
+
+
+/* Spara-knapp */
+
+.add-recipe-page button[type="submit"] {
+  width: 100%;
+  margin-top: 2.5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.875rem;
+  background-color: #3f5d47;
+  color: white;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.add-recipe-page button[type="submit"]:hover {
+  background-color: #304b38;
+}
+
+
+/* Mobil */
+
+@media (max-width: 40.625rem) {
+  .add-recipe-page {
+    padding: 2rem 1rem 4rem;
+  }
+
+  .add-recipe-page form {
+    padding: 1.3rem;
+  }
+
+  .recipe-main-info {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .recipe-name-field,
+  .added-by-field {
+    width: 100%;
+  }
+
+  .recipe-details-row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .recipe-details-row label {
+    width: 100%;
+  }
+
+  .ingredient-row {
+    grid-template-columns: 1fr;
+  }
+}
