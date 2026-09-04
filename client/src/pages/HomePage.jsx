@@ -54,7 +54,7 @@ function HomePage(props) {
                 title={recipe.title}
                 slug={recipe.slug}
                 categories={recipe.categories}
-                addedBy={recipe.addedBy}
+                addedBy={recipe.added_by}
                 portions={recipe.portions}
                 ingredients={recipe.ingredients}
                 isFavorite={props.favorites.includes(recipe.slug)}
